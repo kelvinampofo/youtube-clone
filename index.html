@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/video.css">
+    <title>Youtube Clone</title>
+  </head>
+  <body> <!-- TODO add semantic sectioning to page -->
+    <!-- Header -->
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="/images/icons/hamburger-menu.svg" alt="hamburger-menu">
+        <img class="youtube-logo" src="/images/icons/youtube-logo.svg">
+      </div>
+      
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="/images/icons/search.svg" >
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="/images/icons/voice-search-button.svg" >
+        </button>
+      </div>
+
+      <div class="right-section">
+        <img class="upload-icon" src="/images/icons/upload.svg" alt="">
+        <img class="youtube-app-icon" src="/images/icons/youtube-apps.svg" alt="">
+        <img class="notifications-icon" src="/images/icons/notifications.svg" alt="">
+        <img class="profile-picture" src="/images/channel-pictures/profile-pic.jpeg" alt="">
+      </div>
+    </div>
+    </header>
+
+    <!-- Main container for video grid preview -->
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="/images/thumbnails/thumbnail-1.jpeg" alt='Coding NFT on MacBook Pro 14"' />
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="/images/channel-pictures/channel-1.jpeg" alt="Andres Vidoza profile pic" />
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">Coding an NFT with MacBook Pro 14" M1 Pro - 3 Month Review For Programmers</p>
+            <p class="video-author">Andres Vidoza</p>
+            <p class="video-stats">100k views &middot; 5 month ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="/images/thumbnails/thumbnail-2.webp" alt="Marques Brownlee & Sundar Pichai" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="/images/channel-pictures/channel-2.jpeg" alt="Marques Brownlee profile pic" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.5M views &middot; 5 month ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="/images/thumbnails/thumbnail-3.webp" alt="Filthy fellas cast " />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="/images/channel-pictures/channel-3.jpeg" alt="Filthy fellas profile pic" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">IS ARSENE WENGER VS SIR ALEX FERGUSON THE GREATEST MANAGERIAL FEUD OF ALL TIME??? | FILTHY @ FIVE</p>
+            <p class="video-author">FILTHY FELLAS</p>
+            <p class="video-stats">96K &middot; 1 week ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="/images/thumbnails/thumbnail-4.webp" alt="apple desk setup " /> 
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="/images/channel-pictures/channel-4.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+            <p class="video-author">Veritasium</p>
+            <p class="video-stats">18M views &middot; 4 month ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="/images/thumbnails/thumbnail-5.webp" alt="apple desk setup " />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="/images/channel-pictures/channel-5.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">What would happen if you didn&#39t drink water? - Mia Nacamulli</p>
+            <p class="video-author">TED-Ed</p>
+            <p class="video-stats">12M views &middot; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="/images/thumbnails/thumbnail-6.webp" alt="apple desk setup " />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="/images/channel-pictures/channel-6.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19M views &middot; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="/images/thumbnails/thumbnail-7.webp" alt="apple desk setup " />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="/images/channel-pictures/channel-7.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">lofi hip hop radio - beats to relax/study to</p>
+            <p class="video-author">Lofi Gi</p>
+            <p class="video-stats">19M views &middot; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="/images/thumbnails/thumbnail-8.webp" alt="apple desk setup " />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="/images/channel-pictures/channel-8.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">How Future Billionaires Get Sh*t Done</p>
+            <p class="video-author">Y Combinator</p>
+            <p class="video-stats">178K views &middot; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End of Main section -->
+  </body>
+</html>
