@@ -1,8 +1,10 @@
 body {
   margin: 0;
   padding-top: 80px;
-  padding-left: 80px;
-  height: 3000px;
+  padding-left: 95px;
+  padding-right: 24px;
+  height: 1000px;
+  background-color: rgb(250, 250, 250);
 }
 
 p {

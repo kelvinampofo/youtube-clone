@@ -11,7 +11,7 @@
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -20,7 +20,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .video-stats,
@@ -36,7 +36,7 @@
 }
 
 .profile-picture {
-  width: 40px;
+  width: 35px;
   border-radius: 50%;
 }
 

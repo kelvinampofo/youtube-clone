@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="/styles/sidebar.css">
     <title>Youtube Clone</title>
   </head>
-  <body> <!-- TODO add semantic sectioning to page -->
+  <!-- TODO: add semantic sections -->
+  <body>
     <!-- Header -->
     <div class="header">
       <div class="left-section">
@@ -26,14 +27,22 @@
         <input class="search-bar" type="text" placeholder="Search">
         <button class="search-button">
           <img class="search-icon" src="/images/icons/search.svg" >
+          <div class="tooltip">Search</div>
         </button>
         <button class="voice-search-button">
           <img class="voice-search-icon" src="/images/icons/voice-search-button.svg" >
+          <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right-section">
-        <img class="upload-icon" src="/images/icons/upload.svg" alt="">
-        <img class="youtube-app-icon" src="/images/icons/youtube-apps.svg" alt="">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="/images/icons/upload.svg" alt="">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-app-icon-container">
+          <img class="youtube-app-icon" src="/images/icons/youtube-apps.svg" alt="">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
         <div class="notifications-icon-container">
           <img class="notifications-icon" src="/images/icons/notifications.svg" alt="">
           <div class="notifications-count">2</div>
@@ -42,7 +51,30 @@
       </div>
     </div>
 
-    <div class="sidebar">sidebar</div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="/images/icons/home-icon.svg" class="sidebar-icon" alt="">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="/images/icons/explore-icon.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="/images/icons/subscriptions-icon.svg" alt="">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="/images/icons/originals-icon.svg" alt="">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-icon" src="/images/icons/library-icon.svg" alt="">
+        <div>Library</div>
+      </div>
+    </div>
+    
     <!-- Main container for video grid preview -->
     <div class="video-grid">
       <div class="video-preview">
@@ -172,7 +204,7 @@
           </div>
           <div class="video-info">
             <p class="video-title">lofi hip hop radio - beats to relax/study to</p>
-            <p class="video-author">Lofi Gi</p>
+            <p class="video-author">Lofi Girl</p>
             <p class="video-stats">19K views &middot; 9 years ago</p>
           </div>
         </div>
