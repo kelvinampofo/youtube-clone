@@ -1,3 +1,3 @@
 # youtube-clone
 
-small project to refresh HTML/CSS
+Static webpage project.
