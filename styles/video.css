@@ -55,6 +55,7 @@
 .profile-picture {
   width: 35px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .video-time {
